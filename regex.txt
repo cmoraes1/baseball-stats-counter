@@ -1,0 +1,11 @@
+1. Match the string "hello world" in a sentence
+
+(hello world)
+
+2. Find all words in an input string that contain three consecutive vowels, regardless of case
+
+(\w*)([aeiou]{3})(\w*)
+
+3. Match an input string that is entirely a flight code, of the format AA####, where AA is a two-letter uppercase airline code, and #### is a three- or four digit flight number
+
+^([A-Z]{2})\d{3,4}$
